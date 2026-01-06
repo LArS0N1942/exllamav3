@@ -326,7 +326,7 @@ class Exl3ImageCaptioner:
             frequency_penalty=frequency_penalty,
             presence_penalty=presence_penalty,
             stop=[],
-            embeddings=[embedding_list],
+            embeddings=embedding_list,
         )
 
         return (caption,)
